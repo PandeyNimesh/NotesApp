@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+    height: 3rem;
+    background-color: #212121;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    color: #ffffff; 
+  }
+  
+  .navbar a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff; 
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  .navbar a:hover {
+    color: #00adb5; 
+    transform: scale(1.1); 
+  }
+  body {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+  }
+  
+  
+  
+ 
+  .home-container {
+    margin-top: 0;
+  }
+
+  
+
+.search-box {
+    width: 60%; 
+    margin: 0 auto; 
+    padding: 0.5rem; 
+    border-radius: 1rem;
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 1px solid #ccc; 
+  }
+  
+  .search-box::placeholder {
+    color: #aaa;
+  }
+
+ 
