@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tailwindcss build src/styles.css -o dist/styles.css",
     "lint": "eslint .",
     "preview": "vite preview"
+  
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.4.0",
